@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "340431425394",
+    "project_id": "greenqube-chat-e4b6e",
+    "storage_bucket": "greenqube-chat-e4b6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340431425394:android:108f438ad2c46d2f6017eb",
+        "android_client_info": {
+          "package_name": "com.vzardd.greenqube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340431425394-ljktjp3r4i6ijv6mrpgqcvorsc2bsk2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vzardd.greenqube",
+            "certificate_hash": "716c45cf5bc309916681b52298937cafc3db1b11"
+          }
+        },
+        {
+          "client_id": "340431425394-skqff1ilrk71vkdkbpfgjg586ahhioj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdVIYoNGjlzWPaxOejWwgSW6D5Pav1PN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340431425394-skqff1ilrk71vkdkbpfgjg586ahhioj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".groupclasses.GroupChatActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGroupMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="60dp"
+        app:layout_insetEdge="bottom">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_insetEdge="bottom">
+
+        <ImageView
+            android:id="@+id/ivGroupAttach"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_attach" />
+
+        <EditText
+            android:id="@+id/etGroupTypeMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="10"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Type here..."
+            android:inputType="textMultiLine"
+            android:maxHeight="300dp"
+            android:padding="12dp" />
+
+        <ImageView
+            android:id="@+id/ivGroupSend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            app:layout_insetEdge="bottom"
+            app:srcCompat="@drawable/ic_send" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llGroupAttachedFile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_insetEdge="bottom">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/ic_file" />
+
+        <TextView
+            android:id="@+id/tvGroupAttachedFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingStart="5dp"
+            android:text="Filename"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvGroupCancelFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="Cancel"
+            android:textColor="@color/primaryDark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvGroupSendFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="Send"
+            android:textColor="@color/primaryDark"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
